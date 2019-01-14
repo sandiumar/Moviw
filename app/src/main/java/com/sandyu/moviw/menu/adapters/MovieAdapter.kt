@@ -36,7 +36,7 @@ class MovieAdapter(val context: Context): RecyclerView.Adapter<MovieAdapter.View
     class ViewHolder(private  val binding: ItemMovieBinding) : RecyclerView.ViewHolder(binding.root){
         fun bindData(model: MovieResponseModel.Moviw){
             val viewModel = ItemMovieViewModel(model)
-            binding.itemMoviw = viewModel
+            binding.itemMovie = viewModel
         }
     }
 }
